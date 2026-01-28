@@ -1,0 +1,9 @@
+Nina Stephane Poquita
+Bohol Island State University - Main Campus
+
+Reflect on any challenges you faced and how you resolved them
+
+-	So far, the challenges I’ve encountered include forgetting some of the syntax, which often leads me to refer back to the modules. 
+    Additionally, after verifying my code using the provided link, I realized there were several errors I hadn’t noticed, such as placing 
+    the <style> tag incorrectly—it should be inside the <head> rather than between the <head> and <body>. I resolved these errors by
+    carefully following the feedback and comments provided, making the necessary corrections to ensure my code works correctly.

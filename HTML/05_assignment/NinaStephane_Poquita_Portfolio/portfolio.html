@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>My Portfolio</title>
+
+        <style>
+            table {
+                font-family: arial, sans-serif;
+                border-collapse: collapse;
+                width: auto;
+            }
+
+            td, th {
+                border: 1px solid #dddddd;
+                text-align: left;
+                padding: 8px;
+            }
+
+            tr:nth-child(even) {
+                background-color: #dddddd;
+            }
+        </style>
+    </head>
+
+    <body>
+        <header>
+            <h1>Welcome to My Portfolio</h1>
+            <nav>
+                <h2>Navigation</h2>
+                <ul>
+                    <li><a href="#aboutme">About Me</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section id="aboutme">
+                <h2>About Me</h2>
+                <p>
+                    Hello! My name is Niña Stephane Poquita, a Bachelor of Science 
+                    in Computer Engineering student at Bohol Island State University 
+                    – Main Campus. I am currently taking my On-the-Job Training (OJT) 
+                    at Armada Logics, where I am eager to learn, gain hands-on experience,
+                    and apply the knowledge I have acquired in school. I look forward to 
+                    continuously improving my skills and using what I learn today to build 
+                    a strong foundation for my future career.
+                </p>
+
+                <img src="picture.jpg" alt="A placeholder image for my portfolio">
+            </section>
+            <br>
+
+            <section id="projects">
+                <h2>My Projects</h2>
+                <table>
+                    <tr>
+                        <th>Project Name</th>
+                        <th>Description</th>
+                        <th>Status</th>
+                        <th>Date Completion</th>
+                    </tr>
+                    <tr>
+                        <td>STAMP: Scanning Tactile and Audio Multi-Mode Platform </td>
+                        <td>a portable, offline device designed to help blind users read 
+                            printed text in real time. STAMP provides three output modes—
+                            Braille-only, Audio-only, or a Combined Braille and Audio option</td>
+                        <td>On-going</td>
+                        <td>2026</td>
+                    </tr>
+                    <tr>
+                        <td>Hand Gesture Vehicle using Arduino</td>
+                        <td>is an Arduino-based robotic car that moves according to the user’s hand movements. 
+                            Using a motion sensor like an MPU6050, the system detects hand tilts and sends 
+                            commands wirelessly to control the vehicle’s direction. This allows smooth and 
+                            intuitive control without using buttons or joysticks.</td>
+                        <td>Completed</td>
+                        <td>2025</td>
+                    </tr>
+                    <tr>
+                        <td>Temperature Sensor using ESP32 with SMS</td>
+                        <td>is a system that monitors temperature in real time and sends SMS alerts 
+                            through an internet-based SMS service (API) instead of a GSM module. 
+                            The ESP32 reads data from the temperature sensor and, when a set limit 
+                            is reached, it connects to Wi-Fi and sends a message to the user, allowing 
+                            remote monitoring and quick response to temperature changes.</td>
+                        <td>Completed</td>
+                        <td>2024</td>
+                    </tr>
+                </table>
+            </section>
+            <br>
+
+            <section id="contact">
+                <h2>Contact Me</h2>
+
+                <form action="/submit_form" method="POST">
+                    <label for="fullname">Full Name:</label>
+                    <input type="text" id="fullname" name="fullname">
+                    <br><br>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email">
+                    <br><br>
+
+                    <fieldset>
+                        <legend>How did you hear about this portfolio?</legend>
+                            <input type="radio" id="friend" name="recommendation" value="friend">
+                            <label for="friend">Friend</label>
+                            <br>
+                            
+                            <input type="radio" id="socmed" name="recommendation" value="socmed">
+                            <label for="socmed">Social Media</label>
+                            <br>
+
+                            <input type="radio" id="searchengine" name="recommendation" value="searchengine">
+                            <label for="searchengine">Search Engine</label>
+                            <br>
+
+                            <input type="radio" id="other" name="recommendation" value="other">
+                            <label for="other">Others:</label>
+                            <input type="text" id="other_text" name="specify">
+                            <br>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Skills/Interests</legend>
+                            <input type="checkbox" id="webdev" name="skill" value="webdev">
+                            <label for="webdev">Web Development</label><br>
+
+                            <input type="checkbox" id="design" name="skill" value="design">
+                            <label for="design">Design</label><br>
+
+                            <input type="checkbox" id="dance" name="skill" value="dance">
+                            <label for="dance">Dancing</label><br>
+
+                            <input type="checkbox" id="read" name="skill" value="read">
+                            <label for="read">Reading</label>
+                    </fieldset>
+
+                    <h3>Comments or Feedbacks</h3>
+                    <textarea id="message" name="message" rows="15" cols="100"></textarea>
+                    <br><br>
+
+                    <input type="submit" value="Submit">
+                </form>
+            </section>
+        </main>
+        <br>
+
+        <footer>
+            <p>© [Nina Stephane Poquita] 2026</p>
+        </footer>
+    </body>
+</html>
