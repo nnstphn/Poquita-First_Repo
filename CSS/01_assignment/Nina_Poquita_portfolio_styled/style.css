@@ -1,0 +1,204 @@
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #283044;
+    box-sizing: border-box;
+    margin: 12px;
+}
+
+.welcome {
+    background-color: #e27d60;
+    border: 1px solid #e27d60;
+    color: #efefe9;
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 30px;
+    width: auto;
+}
+
+.navigation {
+    background-color: #e27d60;
+    border: 2px solid #e27d60;
+    color: whitesmoke;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 40px;
+    background: linear-gradient();
+}
+
+.navigation h2 {
+    background-color: #e27d60;
+    font-size: 35px;
+}
+
+.navigation ul {
+    background-color: #e27d60;
+    list-style-type: none;
+}
+
+.navigation li {
+    background-color: #e8a87c;
+    padding: 15px;
+    text-align: center;
+    justify-content: center;
+    font-family:'Open Sans';
+    font-weight: bold;
+    margin-bottom: 25px;
+    width: auto;
+    margin-top: 25px;
+    margin-right: 50px;
+}
+
+.navigation a {
+    background-color: #e8a87c;
+    color: #efefe9;
+    text-decoration: none;
+    font-size: 25px;
+    display: block;
+    padding: inherit;
+}
+
+.navigation li, .navigation li a {
+    transition: 0.3s;
+}
+
+.navigation li:hover,
+.navigation li:hover a {
+    background-color: #654d44;
+}
+
+
+section {
+    margin-bottom: 30px; 
+    padding: 10px; 
+    background-color:#e27d60;
+    border: 2px solid #e27d60;      
+}
+
+#aboutme h2 {
+    background-color:#e27d60;
+    color: #efefe9;
+    font-size: 40px;
+}
+
+#aboutme p {
+    background-color:#e27d60;
+    color: #efefe9;
+    text-align: justify;
+    line-height: 1.5;
+    font-size: 15px;
+}
+
+#aboutme img {
+    background-color:#e27d60;
+    color: #efefe9;
+}
+
+#projects h2 {
+    background-color:#e27d60;
+    color: #efefe9;
+    font-size: 40px;
+}
+
+#contact h2 {
+    background-color:#e27d60;
+    color: #efefe9;
+    font-size: 40px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: auto;
+    }
+
+td, th {
+    border: 1px solid #efefe9;
+    text-align: justify;
+    padding: 8px;
+    background-color: #e8a87c;
+    line-height: 1.5;
+    color: #283044;
+    font-size: 15px;
+}
+
+form {
+    background-color: #e27d60;
+}
+
+input{
+    background-color: #efefe9;
+    border: 1px solid #efefe9;
+    text-align: left;
+    width: auto;
+    border-radius: 5px;
+}
+
+fieldset {
+    background-color: #e8a87c;
+}
+
+fieldset label{
+    background-color: #e8a87c;
+    color: #efefe9;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+fieldset legend {
+    background-color: #e27d60;
+    font-weight: bold;
+    color: #efefe9;
+}
+
+label{
+    background-color: #e27d60;
+    color: #efefe9;
+    font-weight: bold;
+}
+
+h3{
+    background-color: #e27d60;
+    color: #efefe9;
+}
+
+textarea {
+    height: 20vw;
+    width: 90%;
+    background-color: #efefe9;
+    border: 1px solid #efefe9;
+}
+
+input[type="submit"] {
+    background-color: #e8a87c;
+    color: #efefe9;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #654d44;
+}
+
+footer {
+    background-color: #e27d60;
+    color: #efefe9; 
+    text-align: center; 
+    padding: 20px 10px; 
+    font-weight: bold;
+    border-top: 3px solid #e27d60; 
+}
+
+footer p {
+    margin: 0; 
+    background-color: #e27d60;
+    font-size: 12px;
+}
+
+
+

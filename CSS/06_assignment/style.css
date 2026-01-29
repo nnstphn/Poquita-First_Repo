@@ -1,0 +1,146 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+}
+
+header {
+    color: #fefefe;
+    background-color: #6630e9;
+    padding: 20px;
+}
+
+.top {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.navi ul {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    list-style-type: none;
+}
+
+.navi a{
+    color: #fefefe;
+    text-decoration-line: none;
+}
+
+.search_bar {
+    margin-left: 180px;
+    border: 1px solid #fefefe;
+    border-radius: 5px;
+    background-color: #6630e9;
+}
+
+#search {
+    width: 150px;
+    height: 20px;
+    background-color: #6630e9;
+}
+
+body {
+    background-color: #222529;
+    color: #fefefe;
+}
+
+.main_body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    text-align: center;
+}
+
+#description img{
+    width: 10%;
+    height: 10%;
+}
+
+.title_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title_box h1 {
+    font-size: 45px;
+    text-align: center;
+    width: 40%;
+    margin: 5px;
+    line-height: 1;
+}
+
+.box_description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box_description p{
+    font-size: 16px;
+    color: #7d8084;
+    margin: 10px 30px 10px 30px;
+    text-align: center;
+    width: 40%;
+}
+
+.search_bar1 form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+#search1 {
+    background-color: #313337;
+    border: 1px solid #313337;
+    color: #fefefe;
+    padding: 10px;
+    width: 80%;
+    border-radius: 7px;
+}
+
+.search_bar1 input[type="submit"] {
+    background-color: #6630ea;
+    color: #fefefe;
+    border: 1px solid #6630ea;
+    border-radius: 7px;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.search_bar1 input[type="submit"]:hover {
+    background-color: #313337;
+    border: #313337;
+}
+
+.version_v {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.version_v p {
+    font-size: 10px;
+    display: flex;
+    justify-items: center;
+    align-items: flex-end;
+}
+
+.version_v ul{
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.version_v li {
+    text-decoration-line: none;
+    color: #313337;
+    font-size: 10px;
+}
+
