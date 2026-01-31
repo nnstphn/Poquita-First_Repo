@@ -111,7 +111,9 @@ body {
 
 .todo1 li:hover, 
 .todo1 li:hover a {
-    background-color: #1177de;
+    background-color: #588157;
+    text-decoration: line-through;
+    color: #000;
 }
 
 
