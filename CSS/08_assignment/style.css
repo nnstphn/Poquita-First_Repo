@@ -308,6 +308,18 @@ body {
     background-color: #155ea8;
 }
 
+.community1 {
+    text-decoration: underline;
+    color: #1b75d0;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.community1:hover {
+    text-decoration: none;
+}
+
+
 .ai-section {
     display: flex;
     border: 1px solid #434343;
